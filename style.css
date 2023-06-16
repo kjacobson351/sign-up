@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.card-container {
+   
+    flex-direction: inline;
+    height: 100vh;
+    width: 40%;
+    background-image: url("./img/the-blowup-lqx_D7xIZ2o-unsplash.jpg");
+    background-size: cover;
+    
+}
+
+#background-image {
+    size: 10px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top, .bottom {
+    width: 60vw;
+    flex: 1;
+    
+    background-color: #DDDDDD;
+}
+
+.mid {
+    flex: 1.5;
+    box-shadow: 0px 7px 5px -4px rgba(0,0,0,0.44);
+    background-color: #65737E;
+}
