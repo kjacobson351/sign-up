@@ -71,14 +71,31 @@ html, body {
 }
 
 .top, .bottom {
-    width: 60vw;
     flex: 1;
-    
     background-color: #DDDDDD;
+}
+
+.top{
+padding: 2em;
+font-size: 1.8em;
 }
 
 .mid {
     flex: 1.5;
     box-shadow: 0px 7px 5px -4px rgba(0,0,0,0.44);
     background-color: #65737E;
+}
+
+.bottom {
+
+}
+
+.forms-wrapper {
+display: flex;
+flex-direction: column;
+}
+
+.name-wrapper, .email-wrapper, .password-wrapper {
+    display: flex;
+    padding: 1em;
 }
