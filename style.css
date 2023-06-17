@@ -46,6 +46,7 @@ html, body {
     height: 100%;
 }
 
+
 .wrapper{
     display: flex;
 }
@@ -61,41 +62,70 @@ html, body {
 }
 
 #background-image {
-    size: 10px;
+    
 }
 
 .right{
     display: flex;
+    width: 60%;
     flex-direction: column;
-    height: 100vh;
 }
 
 .top, .bottom {
-    flex: 1;
-    background-color: #DDDDDD;
+    
 }
 
 .top{
-padding: 2em;
-font-size: 1.8em;
+display: flex;
+flex: 1;
 }
 
 .mid {
-    flex: 1.5;
-    box-shadow: 0px 7px 5px -4px rgba(0,0,0,0.44);
-    background-color: #65737E;
+flex-direction: column;
+display: flex;
+flex: 1;
+
 }
 
 .bottom {
-
+    display: flex;
+flex: 1;
 }
 
 .forms-wrapper {
 display: flex;
+flex: 1;
+justify-content: center;
 flex-direction: column;
 }
 
 .name-wrapper, .email-wrapper, .password-wrapper {
-    display: flex;
-    padding: 1em;
+flex: 1;
+align-items: center;
+border: 1px solid black;
+display: flex;
+gap: 50px;
+padding: 1em;
+
+    
+
+}
+
+.name-wrapper{
+    
+}
+
+.input {
+margin-left: 100px; 
+
+}
+
+input[type=text]{
+    
+ 
+ 
+}
+
+.mid h1{
+    
 }
