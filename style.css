@@ -44,6 +44,7 @@ table {
 
 html, body {
     height: 100%;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -52,10 +53,12 @@ html, body {
 }
 
 .card-container {
-   
+	display: flex;
     flex-direction: inline;
+	flex-shrink: 5;
     height: 100vh;
     width: 40%;
+	min-width: none;
     background-image: url("./img/the-blowup-lqx_D7xIZ2o-unsplash.jpg");
     background-size: cover;
     
@@ -69,22 +72,37 @@ html, body {
     display: flex;
     width: 60%;
     flex-direction: column;
+	flex-shrink: 0;
 }
 
 .top, .bottom {
-    
+background-color: #EEEEEE;
 }
 
 .top{
 display: flex;
-flex: 1;
+flex-direction: column;
+flex:0;
+font-size: 2.5em;
+font-weight: bold;
+padding-top: 8em;
+padding-left: 3em;
+padding-bottom: 3em;
 }
 
 .mid {
 flex-direction: column;
 display: flex;
 flex: 1;
+background-color: #DDDDDD;
 
+}
+
+.mid h1 {
+	font-size: 3.2em;
+	padding-left: 2.2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 .bottom {
@@ -102,10 +120,10 @@ flex-direction: column;
 .name-wrapper, .email-wrapper, .password-wrapper {
 flex: 1;
 align-items: center;
-border: 1px solid black;
 display: flex;
 gap: 50px;
 padding: 1em;
+padding-bottom: 8em;
 
     
 
@@ -116,16 +134,20 @@ padding: 1em;
 }
 
 .input {
-margin-left: 100px; 
+margin-left: 100px;
+}
 
+label{
+	font-size: 1.5em;
 }
 
 input[type=text]{
-    
- 
- 
+padding: .5em;
+width: 20em;
+border-radius: 8px;
+font-size: 2.2em; 
 }
 
 .mid h1{
-    
+
 }
