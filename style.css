@@ -57,10 +57,11 @@ html, body {
     flex-direction: inline;
 	flex-shrink: 5;
     height: 100vh;
-    width: 40%;
+    width: 30%;
 	min-width: none;
-    background-image: url("./img/the-blowup-lqx_D7xIZ2o-unsplash.jpg");
+    background-image: url("./img/craiyon_133850_macho_man_randy_savage_using_a_computer_from_behind.png");
     background-size: cover;
+	background-position: center;
     
 }
 
@@ -70,7 +71,7 @@ html, body {
 
 .right{
     display: flex;
-    width: 60%;
+    width: 70%;
     flex-direction: column;
 	flex-shrink: 0;
 }
@@ -83,11 +84,11 @@ background-color: #EEEEEE;
 display: flex;
 flex-direction: column;
 flex:0;
-font-size: 2.5em;
+font-size: 2em;
 font-weight: bold;
-padding-top: 8em;
-padding-left: 3em;
-padding-bottom: 3em;
+padding-top: 2em;
+padding-left: 2em;
+padding-bottom: 2em;
 }
 
 .mid {
@@ -99,15 +100,16 @@ background-color: #DDDDDD;
 }
 
 .mid h1 {
-	font-size: 3.2em;
-	padding-left: 2.2em;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	font-size: 2em;
+	padding-left: 2em;
+	padding-top: .75em;
+	padding-bottom: .75em;
 }
 
 .bottom {
     display: flex;
 flex: 1;
+flex-direction: column;
 }
 
 .forms-wrapper {
@@ -123,7 +125,7 @@ align-items: center;
 display: flex;
 gap: 50px;
 padding: 1em;
-padding-bottom: 8em;
+padding-bottom: 4em;
 
     
 
@@ -134,20 +136,32 @@ padding-bottom: 8em;
 }
 
 .input {
-margin-left: 100px;
+margin-left: 3em;
 }
 
 label{
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 input[type=text]{
 padding: .5em;
-width: 20em;
+width: 10em;
 border-radius: 8px;
-font-size: 2.2em; 
+font-size: 1.1em;
+width: 20em;
 }
 
-.mid h1{
-
+.bottom-button {
+padding-left: 3.8em;
+padding-top: 2em;
 }
+
+.bottom button {
+	
+	border-radius: 10px;
+	background-color: rgb(243, 191, 94);
+	font-size: 2rem;
+	padding: .8rem 5rem;
+}
+
+
