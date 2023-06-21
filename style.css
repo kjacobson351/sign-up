@@ -170,14 +170,14 @@ padding-top: 2em;
 
 }
 
-.bottom button:hover {
+/*.bottom button:hover {
 	background-image: url(./img/craiyon_142344_pastel_blue_yellow_pink_and_purple_irregular_polygonal_leopard_skin_pattern.png);
 	background-size: cover;
 	color: #dd74cf;
 	-webkit-text-stroke-width: .5px;
 	-webkit-text-stroke-color: black;
 	
-}
+}*/
 
 .bottom button:focus {
 	background-image: url(./img/craiyon_142344_pastel_blue_yellow_pink_and_purple_irregular_polygonal_leopard_skin_pattern.png);
