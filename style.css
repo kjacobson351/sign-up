@@ -95,7 +95,7 @@ padding-bottom: 2em;
 flex-direction: column;
 display: flex;
 flex: 1;
-background-color: #DDDDDD;
+background-color: #ebe9e9;
 
 }
 
@@ -159,9 +159,36 @@ padding-top: 2em;
 .bottom button {
 	
 	border-radius: 10px;
-	background-color: rgb(243, 191, 94);
-	font-size: 2rem;
-	padding: .8rem 5rem;
+	background-color: #dd74cf;
+	font-size: 2.2rem;
+	padding: .7rem 4rem;
+	opacity: .8;
+	border: none;
+	letter-spacing: -3.5px;
+	word-spacing: 10px;
+	box-shadow: 10px 10px 10px rgb(0 0 0 /0.5)
+
 }
+
+.bottom button:hover {
+	background-image: url(./img/craiyon_142344_pastel_blue_yellow_pink_and_purple_irregular_polygonal_leopard_skin_pattern.png);
+	background-size: cover;
+	color: #dd74cf;
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-stroke-color: black;
+	
+}
+
+.bottom button:focus {
+	background-image: url(./img/craiyon_142344_pastel_blue_yellow_pink_and_purple_irregular_polygonal_leopard_skin_pattern.png);
+	background-size: cover;
+	color: #dddb74;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	
+}
+
+
+
 
 
