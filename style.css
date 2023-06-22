@@ -188,6 +188,37 @@ padding-top: 2em;
 	
 }
 
+.bottom-text {
+	font-size: 1.2rem;
+	padding-left: 4rem;
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+	background-image: url(./img/macho404.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	margin-top: 450px;
+	margin-left: 50px;
+    
+}
+
+#button-404 {
+    font-size: 2rem;
+	width: 10rem;
+	border-radius: 5px;
+}
+
 
 
 
