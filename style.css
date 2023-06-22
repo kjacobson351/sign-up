@@ -50,24 +50,48 @@ html, body {
 
 .wrapper{
     display: flex;
+	height: 100vh;
 }
 
 .card-container {
-	display: flex;
-    flex-direction: inline;
 	flex-shrink: 5;
     height: 100vh;
     width: 30%;
 	min-width: none;
     background-image: url("./img/craiyon_133850_macho_man_randy_savage_using_a_computer_from_behind.png");
+	background-color: white;
     background-size: cover;
 	background-position: center;
     
 }
 
-#background-image {
-    
+.banner {
+width: 100%;
+background-color: black;
+height:20%;
+margin-top: 85%;
+opacity: .5;
 }
+
+.logo-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 11%;
+}
+
+.logo-wrapper img{
+height: 3rem;
+
+}
+
+.logo-text {
+	display: flex;
+	color: white;
+	padding-right: ;
+	font-size: 3.8rem;
+}
+
 
 .right{
     display: flex;
