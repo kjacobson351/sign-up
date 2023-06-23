@@ -59,7 +59,7 @@ html, body {
     height: 100vh;
     width: 30%;
 	min-width: none;
-    /*background-image: url("./img/craiyon_133850_macho_man_randy_savage_using_a_computer_from_behind.png");*/
+    background-image: url("./img/craiyon_133850_macho_man_randy_savage_using_a_computer_from_behind.png");
 	background-color: white;
     background-size: cover;
 	background-position: center;
@@ -72,7 +72,7 @@ justify-content: center;
 width: auto;
 background-color: black;
 height:20vh;
-margin-top: 85%;
+margin-top: 70%;
 opacity: .5;
 }
 
