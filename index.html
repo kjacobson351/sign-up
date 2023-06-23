@@ -23,37 +23,39 @@
         </div>
         <div class ="mid">
             <h1>Let's do this!</h1>
+            <form action="#" method="get">
             <div class="forms-wrapper">
                 <div class="name-wrapper">
                 <div class="input">
+            
                    <label for="first-name">FIRST NAME</label><br>
-                    <input type="text" name="first-name" id="first-name" placeholder="Macho"> 
+                    <input type="text" name="first-name" id="first-name" placeholder="Macho" required> 
                 </div>
                 <div class="input">
                     <label for="last-name">LAST NAME</label><br>
-                    <input type="text" name="last-name" id="last-name" placeholder="Man"> 
+                    <input type="text" name="last-name" id="last-name" placeholder="Man" required> 
                 </div>
                 </div>
                 <div class="email-wrapper">
                 <div class="input">
                     <label for="email">EMAIL</label><br>
-                    <input type="text" name="email" id="email"> 
+                    <input type="email" name="email" id="email" placeholder="slimjimmy52@gmail.com" required> 
                 </div>
                 <div class="input">
                     <label for="phone-number">PHONE NUMBER</label><br>
-                    <input type="text" name="phone-number" id="phone-number">
+                    <input type="tel" name="phone-number" id="phone-number" required pattern="\(\d{3}\)[ ]?\d{3}[-]?\d{4}" placeholder="(123) 456-789" title="Please enter a valid US phone number ex: (123) 456-789" required>
                 </div>
                 </div>
                 <div class="password-wrapper">
                 <div class="input">
                     <label for="password">PASSWORD</label><br>
-                    <input type="text" name="password" id="pasword">
+                    <input type="password" name="password" id="pasword" required>
                 </div>
                 <div class="input">
                     <label for="confirm-password">CONFIRM PASSWORD</label><br>
-                    <input type="text" name="confirm-password" id="confirm-password">
+                    <input type="password" name="confirm-password" id="confirm-password" required>
                 </div>
-                </div>
+                
                     
         
                
@@ -61,8 +63,9 @@
         </div>
         <div class ="bottom">
             <div class="bottom-button">
-                <button id="create-account-button">CREATE ACCOUNT</button>
+                <button type="submit" id="create-account-button">CREATE ACCOUNT</button>
             </div>
+        </form>
             
             <div class="bottom-text">Already have an account? <a href="./404.html">Log in</a></div>
         </div>
