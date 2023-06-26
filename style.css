@@ -55,7 +55,6 @@ html, body {
 }
 
 .card-container {
-	flex-shrink: 5;
     height: 100vh;
     width: 30%;
 	min-width: none;
@@ -116,6 +115,11 @@ font-weight: bold;
 padding-top: 2rem;
 padding-left: 3.5rem;
 padding-bottom: 2rem;
+}
+
+.quote {
+	font-size: 1rem
+	;
 }
 
 .mid {
@@ -246,6 +250,84 @@ padding-top: 2rem;
 	border-radius: 5px;
 }
 
+/*MEDIA QUERIES*/
+@media all and (max-width:1205px){
+
+	.wrapper{
+		display: flex;
+		flex-direction: column;
+		height: 200px;
+	}
+	
+	.card-container {
+		height: 50vh;
+		width: 100%;
+		background-position: 20% 25%;
+		}
+	
+	.banner {
+	margin-top: 30vh;
+	height: 15vh;
+	}
+	
+	.logo-wrapper img{
+	height: 3rem;
+	}
+	
+	.right{
+	width: 100%;
+		}
+
+		@media all and (max-width:850px){
+
+			
+
+			.name-wrapper, .email-wrapper, .password-wrapper {
+				flex: 1;
+				align-items: center;
+				display: flex;
+				gap: 1px;
+				padding: 1rem;
+				padding-bottom: 4rem;
+				}
+
+				input[type=text], [type=email], [type=password], [type=tel]{
+					padding: .5rem;
+					width: 10em;
+					border-radius: 8px;
+					font-size: 1.1rem;
+					width: 15rem;
+
+					}
+}
+
+@media all and (max-width:640px){
+	input[type=text], [type=email], [type=password], [type=tel]{
+		display: block;
+		flex-direction: column;
+		padding: .5rem;
+		width: 10em;
+		border-radius: 8px;
+		font-size: 1.1rem;
+		width: 15rem;
+
+		}
+
+		.name-wrapper,.email-wrapper,.password-wrapper {
+			flex-direction: column;
+			align-items: flex-start;
+
+		}
+		
+		.bottom button {
+			font-size: 1.1rem;	
+		}
+
+		.top {
+			font-size: .9rem;
+		}
+
+}
 
 
 
